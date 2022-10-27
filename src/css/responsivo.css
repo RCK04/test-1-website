@@ -1,0 +1,350 @@
+@media screen and (max-width: 321px){
+    main{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        display: block;
+        position: static;
+    }
+
+    .cabecalho .div-logo .titulo{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .div-logo .titulo{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .navegacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .menu li a::after{
+        display: none;
+    }
+
+    .section-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section-text p {
+        font-size: 20px;
+    }
+
+    .img-mobile img{
+        width: 350px;
+    }
+
+    .container{
+        margin-bottom: 10px;
+    }
+
+    .beneficios{
+        text-align: center;
+    }
+
+    .beneficios h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .beneficios img{
+        display: none;
+    }
+
+    .imagem-background-green{
+        display: none;
+    }
+
+    .imagem-background-yellow{
+        display: none;
+    }
+
+    .imagem-background-blue{
+        display: none;
+    }
+    
+    .footer-text{
+        margin-right: 10px;   
+    }
+
+    .footer-text p{
+        font-size: 0.8em;
+    }
+
+    .footer-copyright p, .lado-dif h2{
+        font-size: 0.9em;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .btn-voltar a img{
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 376px){
+    main{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        display: block;
+        position: static;
+    }
+
+    .cabecalho .div-logo .titulo{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .div-logo .titulo{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .navegacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .menu li a::after{
+        display: none;
+    }
+
+    .section-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section-text p {
+        font-size: 20px;
+    }
+
+    .img-mobile img{
+        width: 350px;
+    }
+
+    .container{
+        margin-bottom: 10px;
+    }
+
+    .beneficios{
+        text-align: center;
+    }
+
+    .beneficios h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .beneficios img{
+        display: none;
+    }
+
+    .imagem-background-green{
+        display: none;
+    }
+
+    .imagem-background-yellow{
+        display: none;
+    }
+
+    .imagem-background-blue{
+        display: none;
+    }
+    
+    .footer-text{
+        margin-right: 10px;   
+    }
+
+    .footer-text p{
+        font-size: 0.8em;
+    }
+
+    .footer-copyright p, .lado-dif h2{
+        font-size: 0.9em;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .btn-voltar a img{
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 426px){
+    main{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        display: block;
+        position: static;
+    }
+
+    .cabecalho .div-logo .titulo{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .div-logo .titulo{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .navegacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .menu li a::after{
+        display: none;
+    }
+
+    .section-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section-text p {
+        font-size: 20px;
+    }
+
+    .img-mobile img{
+        width: 350px;
+    }
+
+    .container{
+        margin-bottom: 10px;
+    }
+
+    .beneficios{
+        text-align: center;
+    }
+
+    .beneficios h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .beneficios img{
+        display: none;
+    }
+
+    .imagem-background-green{
+        display: none;
+    }
+
+    .imagem-background-yellow{
+        display: none;
+    }
+
+    .imagem-background-blue{
+        display: none;
+    }
+    
+    .footer-text{
+        margin-right: 10px;   
+    }
+
+    .footer-text p{
+        font-size: 0.8em;
+    }
+
+    .footer-copyright p, .lado-dif h2{
+        font-size: 0.9em;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .btn-voltar a img{
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+}

@@ -1,0 +1,253 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.destaque{
+    color: #00e676;
+}
+
+.titulo, .rodape h2{
+    font-family: 'Kanit', sans-serif;
+    color: #f8f8ff;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
+
+.div-logo{
+    display: flex;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    background-color: #23282b;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 4px;
+    border-bottom: 1px solid #000;
+}
+
+.menu{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 600px;
+    display: flex;
+    padding: 25px 15px;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+
+.menu li a:hover{
+    color: #00e676;
+}
+
+.menu li a:target{
+    scroll-margin-top: .8em;
+}
+
+.menu li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #f8f8ff;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover::after{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+p{
+    font-size: 17px;
+    color: #7a7a7a;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+    margin-top: 7px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container{
+    max-width: 1300px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.apresentacao{
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.apresentacao img{
+    width: 590px;
+}
+
+
+
+.section-text{
+    width: 50%;
+}
+
+
+.section-text h2{
+    max-width: 500px;
+    font-size: 42px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+}
+
+.imagem-background-blue{
+    width: 40%;
+    background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+    margin-left: 100px;
+    border-radius: 30% 20% 30% 5px;
+}
+
+.imagem-background-blue img, .imagem-background-green img{
+    margin-left: 10%;
+    width: 400px;
+}
+
+.imagem-background-yellow{
+    width: 40%;
+    background: linear-gradient(105deg, rgba(249,230,87,1) 0%, rgba(244,2422,25,1) 100%);
+    margin-right: 100px;
+    border-radius: 30% 20% 30% 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imagem-background-yellow img{
+    margin-right: 10%;
+    width: 400px;
+}
+
+.section-text-right{
+    margin-top: 100px;
+}
+
+.section-text-right h2{
+    max-width: 500px;
+    font-size: 42px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+}
+
+.imagem-background-green{
+    width: 40%;
+    background: linear-gradient(105deg, rgba(0,128,0,1) 0%, rgba(50,205,50,1) 100%);
+    margin-left: 100px;
+    border-radius: 30% 20% 30% 5px;
+}
+
+.rodape{
+    padding: 40px 0;
+    background-color: #23282b;
+    align-items: center;
+    
+}
+
+.rodape p{
+    margin-bottom: 24px;
+}
+
+.footer-text{
+    text-align: center;
+    width: 100%;
+}
+
+
+.footer-text p, .footer-copyright p{
+    color: #f8f8ff;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.rodape h2{
+    margin-left: 50px;
+}
+
+.btn-voltar{
+    margin-right: 100px;
+}
+
+.btn-voltar a img{
+    width: 60px;
+    height: 60px;
+    background-color: #f8f8ff;
+    border: 1px solid #f8f8ff;
+    border-radius: 50%;
+}
+
+.lado-dif{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
