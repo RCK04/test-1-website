@@ -113,6 +113,19 @@
         margin-left: 50px;
     }
 
+    .beneficios-apresentacao p{
+        font-size: 1.2em;
+    }
+    
+     .beneficios-apresentacao ul li{
+        font-size: 0.6em;
+    } 
+    
+    
+    .card-footer h3{
+        font-size: 1.2rem;
+    }
+    
 }
 
 @media screen and (max-width: 376px){
@@ -124,14 +137,13 @@
         position: static;
     }
 
-    .cabecalho .div-logo .titulo{
+    .comeco .cabecalho .div-logo .titulo{
         text-align: center;
-        margin-left: 40px;
     }
 
     .div-logo .titulo{
         font-size: 15px;
-        margin: 0;
+        
         padding: 0;
     }
 
@@ -228,6 +240,19 @@
         width: 30px;
         height: 30px;
         margin-left: 50px;
+    }
+
+    .beneficios-apresentacao p{
+        font-size: 1.2em;
+    }
+    
+     .beneficios-apresentacao ul li{
+        font-size: 0.6em;
+    } 
+    
+    
+    .card-footer h3{
+        font-size: 1.2rem;
     }
 
 }
@@ -345,6 +370,19 @@
         width: 30px;
         height: 30px;
         margin-left: 50px;
+    }
+
+    .beneficios-apresentacao p{
+        font-size: 1.2em;
+    }
+    
+     .beneficios-apresentacao ul li{
+        font-size: 0.6em;
+    } 
+    
+    
+    .card-footer h3{
+        font-size: 1.2rem;
     }
 
 }

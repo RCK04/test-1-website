@@ -24,8 +24,18 @@ body{
     color: #00e676;
 }
 
+.rodape .footer-text .destaque-paragrafo{
+    color: #ffbf00;
+    text-transform: uppercase;
+}
+
+
 .titulo, .rodape h2{
     font-family: 'Kanit', sans-serif;
+    color: #00e676;
+}
+
+.rodape h2{
     color: #f8f8ff;
 }
 
@@ -153,28 +163,35 @@ p{
 
 .imagem-background-blue{
     width: 40%;
-    background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+    background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
     margin-left: 100px;
     border-radius: 30% 20% 30% 5px;
 }
 
-.imagem-background-blue img, .imagem-background-green img{
-    margin-left: 10%;
-    width: 400px;
+.imagem-background-blue img{
+    margin-left: 5%;
+    width: 450px;
+}
+
+.imagem-background-green img{
+    margin-left: 5%;
+    width: 500px;
+    margin: 40px 20px;
 }
 
 .imagem-background-yellow{
     width: 40%;
-    background: linear-gradient(105deg, rgba(249,230,87,1) 0%, rgba(244,2422,25,1) 100%);
+    max-width: 40%;
+    background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
     margin-right: 100px;
-    border-radius: 30% 20% 30% 5px;
+    border-radius: 30% 5% 20% 5px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .imagem-background-yellow img{
-    margin-right: 10%;
-    width: 400px;
+    margin-left: 50px;
+    width: 500px;
 }
 
 .section-text-right{
@@ -192,7 +209,7 @@ p{
 
 .imagem-background-green{
     width: 40%;
-    background: linear-gradient(105deg, rgba(0,128,0,1) 0%, rgba(50,205,50,1) 100%);
+    background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
     margin-left: 100px;
     border-radius: 30% 20% 30% 5px;
 }
@@ -227,7 +244,7 @@ p{
 
 
 .rodape h2{
-    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .btn-voltar{
@@ -246,6 +263,139 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.lado-dif h2{
+    margin-left: 20px;
+}
+
+#sobre{
+    margin-top: 60px;
+}
+
+#sobre, #projeto{
+    text-align: center;
+}
+
+#sobre p, #projeto p, .produto p{
+    font-size: 1.2em;
+}
+
+#sobre .destaque{
+    color: red;
+}
+
+.beneficios-apresentacao{
+    display: block;
+    margin-bottom: 100px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.beneficios-apresentacao p{
+    text-align: center;
+    font-size: 1.4em;
+    margin-right: 40px;
+}
+
+ .beneficios-apresentacao ul li{
+    list-style-type: square;
+    font-size: 0.9em;
+  
+} 
+
+.beneficios-apresentacao .destaque{
+    text-transform: uppercase;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    max-width: 700px;
+    background-color: #f8f8ff;
+    border: 1px solid #343637;
+    position: relative;
+}
+
+.card .image-container{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .image-container::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: #90ee90;
+    mix-blend-mode: multiply;
+    transform: translateX(-120%) skewX(-10deg);
+    transition: transform 0.3s ease-out;
+}
+
+.card-footer{
+    padding: 2rem 2rem 3.5rem 2rem;
+    color: rgb(56, 62, 50);
+    transition: all 0.3s ease;
+}
+
+.card-footer h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-footer ul{
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+.card-footer ul li{
+    margin-bottom: 10px;
+}
+
+.card:hover .image-container::before{
+    transform: translateX(0) skew(-10deg) scaleX(1.3);
+}
+
+.card:hover .card-footer{
+    background-color: #383e3a;
+    color: rgb(236, 232, 225);
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #90ee90 50%, #383e3a 50%);
+    background-size: 200%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    transition: all 0.5s;
+}
+
+.card:hover::before{
+    background-position: 0%;
 }
 
 
