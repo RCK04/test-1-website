@@ -4,18 +4,6 @@
     }
     .cabecalho{
         display: block;
-        position: static;
-    }
-
-    .cabecalho .div-logo .titulo{
-        text-align: center;
-        margin-left: 40px;
-    }
-
-    .div-logo .titulo{
-        font-size: 15px;
-        margin: 0;
-        padding: 0;
     }
 
     .desktop{
@@ -79,16 +67,29 @@
         display: none;
     }
 
-    .imagem-background-green{
-        display: none;
+
+    .img-mobile:nth-of-type(2){
+        background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
+        border-radius: 30% 20% 30% 5px;
     }
 
-    .imagem-background-yellow{
-        display: none;
+    .img-mobile:nth-of-type(3){
+        background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        margin-bottom: 100px;
+        padding: 30px;
     }
 
-    .imagem-background-blue{
-        display: none;
+    .img-mobile:nth-of-type(3) img{
+        margin-left: 60px;
+        width: 350px;
+    }
+
+    .img-mobile:nth-of-type(4){
+        background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        padding: 35px;
+        margin-bottom: 100px;
     }
     
     .footer-text{
@@ -124,6 +125,10 @@
     
     .card-footer h3{
         font-size: 1.2rem;
+    }
+
+    .btn-voltar{
+        display: none;
     }
     
 }
@@ -134,17 +139,7 @@
     }
     .cabecalho{
         display: block;
-        position: static;
-    }
-
-    .comeco .cabecalho .div-logo .titulo{
-        text-align: center;
-    }
-
-    .div-logo .titulo{
-        font-size: 15px;
         
-        padding: 0;
     }
 
     .desktop{
@@ -208,16 +203,28 @@
         display: none;
     }
 
-    .imagem-background-green{
-        display: none;
+    .img-mobile:nth-of-type(2){
+        background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
+        border-radius: 30% 20% 30% 5px;
     }
 
-    .imagem-background-yellow{
-        display: none;
+    .img-mobile:nth-of-type(3){
+        background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        margin-bottom: 100px;
+        padding: 30px;
     }
 
-    .imagem-background-blue{
-        display: none;
+    .img-mobile:nth-of-type(3) img{
+        margin-left: 60px;
+        width: 350px;
+    }
+
+    .img-mobile:nth-of-type(4){
+        background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        padding: 35px;
+        margin-bottom: 100px;
     }
     
     .footer-text{
@@ -253,6 +260,10 @@
     
     .card-footer h3{
         font-size: 1.2rem;
+    }
+
+    .btn-voltar{
+        display: none;
     }
 
 }
@@ -263,19 +274,14 @@
     }
     .cabecalho{
         display: block;
-        position: static;
+        
     }
 
     .cabecalho .div-logo .titulo{
-        text-align: center;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
-    .div-logo .titulo{
-        font-size: 15px;
-        margin: 0;
-        padding: 0;
-    }
+    
 
     .desktop{
         display: none;
@@ -338,16 +344,28 @@
         display: none;
     }
 
-    .imagem-background-green{
-        display: none;
+    .img-mobile:nth-of-type(2){
+        background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
+        border-radius: 30% 20% 30% 5px;
     }
 
-    .imagem-background-yellow{
-        display: none;
+    .img-mobile:nth-of-type(3){
+        background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        margin-bottom: 100px;
+        padding: 30px;
     }
 
-    .imagem-background-blue{
-        display: none;
+    .img-mobile:nth-of-type(3) img{
+        margin-left: 60px;
+        width: 350px;
+    }
+
+    .img-mobile:nth-of-type(4){
+        background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+        padding: 35px;
+        margin-bottom: 100px;
     }
     
     .footer-text{
@@ -383,6 +401,10 @@
     
     .card-footer h3{
         font-size: 1.2rem;
+    }
+
+    .btn-voltar{
+        display: none;
     }
 
 }
