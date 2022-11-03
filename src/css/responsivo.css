@@ -31,11 +31,6 @@
         display: none;
     }
 
-    .section-text{
-        width: 100%;
-        text-align: center;
-    }
-
     .section-text h2{
         font-size: 25px;
         line-height: 30px;
@@ -43,6 +38,10 @@
 
     .section-text p {
         font-size: 20px;
+    }
+
+    .img-principal img{
+        border-radius: 40%;
     }
 
     .img-mobile img{
@@ -130,7 +129,7 @@
     .btn-voltar{
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 376px){
@@ -179,6 +178,10 @@
 
     .section-text p {
         font-size: 20px;
+    }
+
+    .img-principal img{
+        border-radius: 40%;
     }
 
     .img-mobile img{
@@ -405,6 +408,11 @@
 
     .btn-voltar{
         display: none;
+    }
+
+    .img-principal img{
+        border-radius: 40%;
+    
     }
 
 }

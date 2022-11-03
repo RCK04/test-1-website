@@ -139,13 +139,21 @@ p{
 .apresentacao{
     align-items: center;
     margin-top: 50px; 
+    display: flex;
+    justify-content: space-between;
 }
 
 .apresentacao img{
-    width: 590px;
+    border-radius: 30%;
+    width: 400px;
 }
 
-
+.sobre-img img, .projeto-img img{
+    border-radius: 30%;
+    width: 500px;
+    height: 600px;
+    margin-bottom: 100px;
+}
 
 .section-text{
     width: 50%;
@@ -323,7 +331,8 @@ p{
 
 .card .image-container{
     width: 100%;
-    height: 200px;
+    height: 250px;
+    border-bottom: 1px solid #000;
     position: relative;
     overflow: hidden;
     background-color: #ffffff;
@@ -397,6 +406,7 @@ p{
 .card:hover::before{
     background-position: 0%;
 }
+
 
 
 
