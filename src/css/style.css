@@ -170,26 +170,26 @@ p{
 }
 
 .imagem-background-blue{
-    width: 40%;
+    width: 350px;
     background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
     margin-left: 100px;
     border-radius: 30% 20% 30% 5px;
 }
 
 .imagem-background-blue img{
-    margin-left: 5%;
-    width: 450px;
+    width: 350px;
 }
 
 .imagem-background-green img{
-    margin-left: 5%;
-    width: 500px;
-    margin: 40px 20px;
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
 }
 
 .imagem-background-yellow{
-    width: 40%;
-    max-width: 40%;
+    width: 380px;
+    height: 300px;
     background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
     margin-right: 100px;
     border-radius: 30% 5% 20% 5px;
@@ -199,7 +199,7 @@ p{
 
 .imagem-background-yellow img{
     margin-left: 50px;
-    width: 500px;
+    width: 450px;
 }
 
 .section-text-right{
@@ -216,7 +216,8 @@ p{
 }
 
 .imagem-background-green{
-    width: 40%;
+    width: 350px;
+    position: relative;
     background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
     margin-left: 100px;
     border-radius: 30% 20% 30% 5px;
@@ -319,7 +320,7 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .card{
@@ -406,9 +407,3 @@ p{
 .card:hover::before{
     background-position: 0%;
 }
-
-
-
-
-
-

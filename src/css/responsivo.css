@@ -48,6 +48,10 @@
         width: 350px;
     }
 
+    .img-principal .mobile{
+        width: 250px;
+    }
+
     .container{
         margin-bottom: 10px;
     }
@@ -66,31 +70,44 @@
         display: none;
     }
 
-
-    .img-mobile:nth-of-type(2){
-        background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+    .img-benef{
+        width: 250px;
     }
 
-    .img-mobile:nth-of-type(3){
+    .img-benef .mobile{
+        width: 200px;
+    }
+
+    .sobre-img img, .projeto-img img{
+        width: 260px;
+        height: 280px;
+    }
+
+    .bg-second{
+        width: 300px;
+        height: 200px;
         background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+        border-radius: 30% 5% 20% 5px;
         margin-bottom: 100px;
-        padding: 30px;
     }
 
-    .img-mobile:nth-of-type(3) img{
+    .bg-second img{
         margin-left: 60px;
-        width: 350px;
+        margin-top: 40px;
     }
 
-    .img-mobile:nth-of-type(4){
+    .bg-last{
+        width: 300px;
+        height: 280px;
         background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
         border-radius: 30% 20% 30% 5px;
-        padding: 35px;
-        margin-bottom: 100px;
     }
-    
+
+    .bg-last img{
+        margin-left: 50px;
+        margin-top: 55px;
+    }
+
     .footer-text{
         margin-right: 10px;   
     }
@@ -206,28 +223,58 @@
         display: none;
     }
 
-    .img-mobile:nth-of-type(2){
+    .img-benef{
+        width: 250px;
+    }
+
+    .img-benef .mobile{
+        width: 200px;
+    }
+
+    .img-principal .mobile{
+        width: 260px;
+    }
+
+    .sobre-img img, .projeto-img img{
+        width: 260px;
+        height: 280px;
+    }
+
+    .bg-first{
+        width: 300px;
+        height: 200px;
         background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+        border-radius: 30% 5% 20% 5px;
+        margin-bottom: 30px;
     }
 
-    .img-mobile:nth-of-type(3){
+    .bg-first img{
+        margin-left: 40px;
+    }
+
+    .bg-second{
+        width: 300px;
+        height: 200px;
         background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+        border-radius: 30% 5% 20% 5px;
         margin-bottom: 100px;
-        padding: 30px;
     }
 
-    .img-mobile:nth-of-type(3) img{
+    .bg-second img{
         margin-left: 60px;
-        width: 350px;
+        margin-top: 40px;
     }
 
-    .img-mobile:nth-of-type(4){
+    .bg-last{
+        width: 300px;
+        height: 280px;
         background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
         border-radius: 30% 20% 30% 5px;
-        padding: 35px;
-        margin-bottom: 100px;
+    }
+
+    .bg-last img{
+        margin-left: 50px;
+        margin-top: 55px;
     }
     
     .footer-text{
@@ -347,28 +394,224 @@
         display: none;
     }
 
-    .img-mobile:nth-of-type(2){
+    .img-principal .mobile{
+        width: 260px;
+    }
+
+    .sobre-img img, .projeto-img img{
+        width: 260px;
+        height: 280px;
+    }
+
+    .bg-first{
+        width: 300px;
+        height: 280px;
         background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+        border-radius: 30% 5% 20% 5px;
+        margin-bottom: 30px;
     }
 
-    .img-mobile:nth-of-type(3){
+    .bg-first img{
+        width: 250px;
+        
+    }
+
+    .bg-second{
+        width: 300px;
+        height: 280px;
         background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
-        border-radius: 30% 20% 30% 5px;
+        border-radius: 30% 5% 20% 5px;
         margin-bottom: 100px;
-        padding: 30px;
     }
 
-    .img-mobile:nth-of-type(3) img{
+    .bg-second img{
+        width: 250px;
         margin-left: 60px;
+        margin-top: 60px;
+    }
+
+    .bg-last{
+        width: 300px;
+        height: 280px;
+        background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
+        border-radius: 30% 20% 30% 5px;
+    }
+
+    .bg-last img{
+        width: 210px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    .footer-text{
+        margin-right: 10px;   
+    }
+
+    .footer-text p{
+        font-size: 0.8em;
+    }
+
+    .footer-copyright p, .lado-dif h2{
+        font-size: 0.9em;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .btn-voltar a img{
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+    .beneficios-apresentacao p{
+        font-size: 1.2em;
+    }
+    
+     .beneficios-apresentacao ul li{
+        font-size: 0.6em;
+    } 
+    
+    
+    .card-footer h3{
+        font-size: 1.2rem;
+    }
+
+    .btn-voltar{
+        display: none;
+    }
+
+    .img-principal img{
+        border-radius: 40%;
+    
+    }
+
+}
+
+@media screen and (max-width: 601px){
+    main{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        display: block;
+        
+    }
+
+    .cabecalho .div-logo .titulo{
+        margin-left: 50px;
+    }
+
+    
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .navegacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .menu li a::after{
+        display: none;
+    }
+
+    .section-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section-text p {
+        font-size: 20px;
+    }
+
+    .img-mobile img{
         width: 350px;
     }
 
-    .img-mobile:nth-of-type(4){
+    .container{
+        margin-bottom: 10px;
+    }
+
+    .beneficios{
+        text-align: center;
+    }
+
+    .beneficios h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .beneficios img{
+        display: none;
+    }
+
+    .img-principal .mobile{
+        width: 260px;
+    }
+
+    .sobre-img img, .projeto-img img{
+        width: 260px;
+        height: 280px;
+    }
+
+    .bg-first{
+        width: 300px;
+        height: 280px;
+        background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
+        border-radius: 30% 5% 20% 5px;
+        margin-bottom: 30px;
+    }
+
+    .bg-first img{
+        width: 250px;
+        
+    }
+
+    .bg-second{
+        width: 300px;
+        height: 280px;
+        background: linear-gradient(105deg, rgba(155,220,162,1) 0%, rgba(97,199,107,1) 100%);
+        border-radius: 30% 5% 20% 5px;
+        margin-bottom: 100px;
+    }
+
+    .bg-second img{
+        width: 250px;
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+
+    .bg-last{
+        width: 300px;
+        height: 280px;
         background: linear-gradient(105deg, rgba(97,199,107,1) 0%, rgba(48,166,60,1) 100%);
         border-radius: 30% 20% 30% 5px;
-        padding: 35px;
-        margin-bottom: 100px;
+    }
+
+    .bg-last img{
+        width: 210px;
+        margin-top: 50px;
+        margin-left: 40px;
     }
     
     .footer-text{
