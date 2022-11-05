@@ -130,8 +130,9 @@
         margin-left: 50px;
     }
 
-    .beneficios-apresentacao p{
+    .beneficios-apresentacao .beneficios-paragrafo{
         font-size: 1.2em;
+        text-align: center;
     }
     
      .beneficios-apresentacao ul li{
@@ -299,8 +300,9 @@
         margin-left: 50px;
     }
 
-    .beneficios-apresentacao p{
+    .beneficios-apresentacao .beneficios-paragrafo{
         font-size: 1.2em;
+        text-align: center;
     }
     
      .beneficios-apresentacao ul li{
@@ -465,8 +467,9 @@
         margin-left: 50px;
     }
 
-    .beneficios-apresentacao p{
-        font-size: 1.2em;
+    .beneficios-apresentacao .beneficios-paragrafo{
+        font-size: 1.3em;
+        text-align: center;
     }
     
      .beneficios-apresentacao ul li{

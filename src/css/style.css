@@ -169,6 +169,19 @@ p{
     color: #191a20;
 }
 
+.sobre-name{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.projeto-name{
+    text-align: center;
+}
+
+.projeto-name h2{
+    margin-bottom: 50px;
+}
+
 .imagem-background-blue{
     width: 350px;
     background: linear-gradient(105deg, rgba(215,241,218,1) 0%, rgba(155,220,162,1) 100%);
@@ -328,6 +341,7 @@ p{
     background-color: #f8f8ff;
     border: 1px solid #343637;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .card .image-container{
